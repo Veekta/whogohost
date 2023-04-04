@@ -1,75 +1,104 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-.header__container{
-    height: 60px;
-    background-color: #1B2FC7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo{
-    width: 200px;
-    object-fit: contain;
-    height: 40px;
+.header__container {
+  height: 60px;
+  background-color: #1b2fc7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav__hold{
-    color: white;
+.logo {
+  width: 200px;
+  object-fit: contain;
+  height: 40px;
 }
 
-span{
-    margin-right: 20px;
-}
-.header__container2{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: space-between;
+.nav__hold {
+  color: white;
 }
 
-.navbar{
-    background-color: #1B2FC7;
-    padding: 20px 0px;
+span {
+  margin-right: 20px;
+}
+.header__container2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-link{
-    color: white;
+.navbar {
+  background-color: #1b2fc7;
+  padding: 20px 0px;
 }
 
-.nav-link:hover{
-    color: white;
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
 }
 
 .nav-item {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
-.navbar-brand{
-    margin-right: 500px;
+.navbar-brand {
+  margin-right: 500px;
 }
 
-.hero__container{
-    height: 400px;
-    background-color: #1B2FC7;
-    border-top: 1px solid white;
+.hero__container {
+  height: 400px;
+  background-color: #1b2fc7;
+  border-top: 1px solid white;
 }
 
-.hero__container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    height: 400px;
-    color: white;
+.hero__container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 400px;
+  color: white;
+}
+
+.input-group {
+  width: 90% !important;
+  height: 50px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.input-group input {
+  background-color: #1b2fc7 !important;
+  border-right: 0 !important;
+}
+
+.input-group input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.input-group .btn {
+  background-color: #1b2fc7;
+  border: 1px solid white;
+  border-left: 0;
+}
+
+.input-group .btn:hover {
+  color: black;
+  border: 1px solid white;
+  border-left: 0;
 }
 
 @media (max-width: 1024px) {
-    .navbar-brand{
-        margin-right: 130px;
-    }
+  .navbar-brand {
+    margin-right: 130px;
+  }
 }

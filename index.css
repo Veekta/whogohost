@@ -92,7 +92,6 @@ span {
 }
 
 .input-group .btn:hover {
-  color: black;
   border: 1px solid white;
   border-left: 0;
 }

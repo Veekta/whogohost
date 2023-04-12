@@ -110,6 +110,7 @@ span {
   /* background-color: orange; */
   border-radius: 10px;
   padding: 15px;
+  margin-bottom: 15px;
 }
 
 .card p {
@@ -127,8 +128,79 @@ span {
   width: 100%;
 }
 
+.company__hold h3 {
+  color: #091ba5;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-size: 35px;
+}
+
+.company__logos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.company__logo {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.choose__hold {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.choose__hold h3 {
+  color: #091ba5;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+.choose__hold p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  width: 500px;
+}
+
+.award__card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.award__card h5 {
+  text-align: center;
+}
+.award__card span {
+  text-align: center;
+}
+
+.awards__hold {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 1024px) {
   .navbar-brand {
     margin-right: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .choose__hold p {
+    width: 90%;
   }
 }

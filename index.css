@@ -188,6 +188,66 @@ span {
 .awards__hold {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.footer__hold {
+  background-color: black;
+  height: 300px;
+  margin-top: 50px;
+  padding: 20px 0px;
+  color: white;
+}
+
+.footer__formhold {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer__form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer__input {
+  padding: 15px 0px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0px 10px;
+  padding-left: 10px;
+}
+
+.form__start button {
+  padding: 15px 20px;
+  outline: none;
+  border: 0;
+  background-color: white;
+  border-radius: 5px;
 }
 
 @media (max-width: 1024px) {
@@ -202,5 +262,13 @@ span {
   }
   .choose__hold p {
     width: 90%;
+  }
+  .footer__formhold {
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer__form {
+    justify-content: center;
+    gap: 20px;
   }
 }
